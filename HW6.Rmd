@@ -5,7 +5,6 @@ date: "12/4/2021"
 output: github_document
 ---
 
-## Set up
 
 ```{r}
 library(tidyverse)
@@ -111,7 +110,7 @@ birthweight_df %>%
   )
 ```
 
-compare with the other 2 model provided
+Compare with the other 2 model provided
 
 ```{r}
 model1 = lm(bwt ~ blength + gaweeks, data = birthweight_df)
