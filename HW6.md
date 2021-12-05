@@ -3,8 +3,6 @@ hw6
 Yu Si
 12/4/2021
 
-## Set up
-
 ``` r
 library(tidyverse)
 ```
@@ -162,7 +160,7 @@ birthweight_df %>%
 
 <img src="HW6_files/figure-gfm/unnamed-chunk-6-1.png" width="90%" />
 
-compare with the other 2 model provided
+Compare with the other 2 model provided
 
 ``` r
 model1 = lm(bwt ~ blength + gaweeks, data = birthweight_df)
